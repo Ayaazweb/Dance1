@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu_bar{
+    background-image: url(../image/menu.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 10px;
+}
+.logo{
+    color: #716c53;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px ;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color: #716c53;
+    text-transform: uppercase;
+}
+button{
+    background-color: #716c53;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+button:hover{
+    color: #070707;
+}
+.banner{
+    background-color: #f6f6f6;
+}
+.banner img{
+    box-shadow: 2px 1px 10px;
+}
+.banner h1{
+    color: #716c53;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.banner p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.team{
+    background-image: url(../image/Baneer-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.team h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #716c53;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.team p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.team img{
+    margin-top: 150px;
+    
+}
+.team h3{
+    color: #716c53;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 30px; 
+    font-weight: bold; 
+}
+.team h6{
+    color: #716c53;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px; 
+    font-weight: bold; 
+
+}
+.dance{
+    background-image: url(../image/Banner-4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+.dance img{
+    margin-top: 70px;
+}
+.dance h1{
+    color: #716c53;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.dance p{
+    margin-top: 70px;
+
+}
+button{
+    background-color: #716c53;
+    border-radius: 50px;
+}
+.trial{
+    background-image: url(../image/ayaaz4.png);
+}
+.trial h1{
+    color: #716c53;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.trial p{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.trial img{
+    margin-left: 40px;
+
+}
+.our{
+    background-image: url(../image/Baneer-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.our h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #716c53;
+}
+.our p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.our h2{
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #716c53;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-right: 100px;
+}
+.our h3{
+    color: #716c53;
+    font-size: 40px;
+    font-weight: bold;
+}
+.level{
+    background-image: url(../image/3605150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+.level h1{
+    color: #716c53;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+.level p{
+    text-align: center;
+    margin-top: 10px;
+}
+.level img{
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: 5px 5px 2px;
+}
+.level h4{
+    text-align: center;
+    margin-right: 190px;
+    color: #716c53;
+    font-size: 30px;
+    font-weight: bold;
+}
+.level h5{
+   text-align: center;
+   margin-right: 210px;
+   margin-top: 15px;
+   font-size: 40px;
+   color: #716c53;
+}
+.level p{
+    font-size: 15px;
+    margin-right: 190px;
+
+}
+button{
+    margin-left: 60px;
+}
+.aiden{
+    background-image: url(../image/ggg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.aiden p{
+    font-size: 30px;
+    margin-top: 300px;
+    color: aliceblue;
+}
+.aiden h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.fun{
+    background-image: url(../image/3605150.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+.fun h1{
+    margin-top: 210px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.fun p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+footer{
+    background-color: #070707;
+}
+footer img{
+
+}
+footer p{
+    color: #f6f6f6;
+}
+.footer h2{
+    color: #f6f6f6;
+}
